@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+.container{
+    padding: 10px 40px;
+    background-color: rgb(60, 70, 116);
+}
+.dflex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.topNavLogin li,.topNavIcons li{
+    padding: 5px;
+}
+.mainLogo img{
+    max-width: 70px;
+}
+.headerPart{
+    padding: 10px 40px;
+}
+.mainMenus li{
+    padding: 10px;
+    text-transform: uppercase;
+}
+.mainMenus li a{
+    color: black;
+}
+.mainBodyPart{
+    height: 80vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.651),rgba(0, 0, 0, 0.637)),url(https://static.vecteezy.com/system/resources/previews/001/849/553/original/modern-gold-background-free-vector.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    text-align: center;
+    color: antiquewhite;
+}
+.mainDevButton{
+    justify-content: space-evenly;
+
+}
+.mainBody h1{
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+.mainDevButton a{
+    border: 2px solid wheat;
+    padding: 10px;
+    margin-top: 10px;
+    background-color: rgb(26, 161, 116);
+    border-radius: 6px;
+}
+.myDevBtn{
+    background-color: transparent !important;
+}

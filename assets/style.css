@@ -1,7 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 *{
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body{
+    overflow: hidden;
+    overflow-y: auto;
 }
 
 li{
@@ -63,4 +70,68 @@ a{
 }
 .myDevBtn{
     background-color: transparent !important;
+}
+.holidayPart{
+    padding: 10px 40px;
+    background-color: rgb(15, 39, 66);
+}
+.holidayTitle{
+    width: 20%;
+    color: aliceblue;
+}
+.holidayForm{
+    width: 80%;
+}
+.holidayForm form{
+    display: flex;
+    justify-content: space-between;
+}
+.holidayForm form input{
+    width: 40%;
+    padding: 10px;
+}
+.holidayForm form button{
+    padding: 5px;
+    background-color: blanchedalmond;
+}
+.offerTitle{
+    text-align: center;
+}
+.specialOffer{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    
+}
+.offerGallery{
+    width: 100%;
+    border: 1px solid black;
+    margin-top: 20px;
+    transition: 0.4s;
+}
+.offerImage{
+    max-width: 100%;
+}
+.offerInfo{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+.offerInfoDev p{
+    font-size: 13px;
+}
+.offerGallery:hover{
+    background-color: aquamarine;
+    border: 2px solid gray;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px gray;
+    
+    
+}
+.allOffers{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }

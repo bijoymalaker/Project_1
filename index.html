@@ -5,12 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project 3</title>
+    <!-- Bootstrap Css -->
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <!-- My Css -->
     <link rel="stylesheet" href="./assets/style.css">
+    <!-- Owl CSS -->
+    <link rel="stylesheet" href="./assets/Owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/Owl/owl.theme.default.min.css">
+    <!-- Owl Js -->
+    <script src="./assets/Owl/js/jquery.min.js"></script>
+    <script src="./assets/Owl/js/owl.carousel.js"></script>
+    <!-- AOS CSS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 <body>
     <!-- Top Nav Bar -->
-    <div class="container dflex">
+    <div class="container dflex" data-aos="fade-down">
         <div class="topNavLogin dflex">
             <li><a href="#"><i class="bi bi-person-lines-fill"></i> Login</a></li>
             <li><a href="#"><i class="bi bi-person-lines-fill"></i> Register</a></li>
@@ -25,7 +37,7 @@
     </div>
 
     <!-- Header part -->
-    <header class="headerPart dflex">
+    <header class="headerPart dflex" data-aos="fade-right">
         <div class="mainLogo">
             <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/20/Adidas_Logo.svg/2560px-Adidas_Logo.svg.png" alt="Main Logo">
         </div>
@@ -39,7 +51,7 @@
     </header>
 
     <!-- Main Body Part -->
-    <section class="mainBodyPart dflex">
+    <section class="mainBodyPart dflex" data-aos="fade-up-right">
         <div class="mainBody">
             <h1>Lorem ipsum dolor sit amet.</h1>
             <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, veniam!</p>
@@ -49,6 +61,209 @@
         </div>
         </div>
     </section>
-    
+
+    <!-- Find Your Holidays Part -->
+    <section class="holidayPart dflex" data-aos="flip-left"
+    data-aos-easing="ease-out-cubic"
+    data-aos-duration="2000">>
+        <div class="holidayTitle">
+            <p>Find Your</p>
+            <h3>Holidays</h3>
+        </div>
+        <div class="holidayForm">
+            <form>
+                <input type="text" name="" id="" placeholder="Enter The Place">
+                <input type="date" name="" id="">
+                <button>Search</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Special Offer Part -->
+    <section class="specialOffer" data-aos="flip-down">
+        <div class="offerTitle">
+            <h3>Special Offer</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+        </div>
+        <div class="allOffers">
+
+            <section id="demos">
+                <div class="row" data-aos="zoom-in">
+                  <div class="large-12 columns">
+                    <div class="owl-carousel owl-theme">
+                      
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                        <div class="item">
+                            <div class="offerGallery">
+                                <div class="offer">
+                                    <img class="offerImage" src="./images/0bc19452b7a568797c8331be7275e453.png" alt="Offer Image">
+                                
+                                <div class="offerInfo">
+                                    <div class="offerInfoDev">
+                                        <h2>Lorem ipsum dolor sit.</h2>
+                                        <p>Lorem ipsum dolor sit amet consectetur.</p>
+                                    </div>
+                                    <i class="bi bi-arrow-down"></i>
+                                </div>
+                                </div>
+                            </div>
+                          
+                        </div>
+                  </div>
+                </div>
+            </div>
+            
+         </section>
+
+
+        
+    </section>
+    <script>
+        var owl = $('.owl-carousel');
+owl.owlCarousel({
+    items:4,
+    loop:true,
+    margin:10,
+    autoplay:true,
+    autoplayTimeout:1000,
+    autoplayHoverPause:true
+});
+$('.play').on('click',function(){
+    owl.trigger('play.owl.autoplay',[1000])
+})
+$('.stop').on('click',function(){
+    owl.trigger('stop.owl.autoplay')
+})
+
+// AOS inheit
+AOS.init();
+    </script>
 </body>
 </html>
